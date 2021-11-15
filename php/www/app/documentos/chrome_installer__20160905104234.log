@@ -1,0 +1,9 @@
+[0827/014202:VERBOSE1:setup_main.cc(1621)] Command Line: "C:\Archivos de programa\Google\Chrome\Application\29.0.1547.62\Installer\chrmstp.exe" --configure-user-settings --verbose-logging --system-level --multi-install --chrome --force-configure-user-settings
+[0827/014202:VERBOSE1:setup_main.cc(1623)] multi install is 1
+[0827/014202:VERBOSE1:setup_main.cc(1626)] system install is 1
+[0827/014202:VERBOSE1:installer_state.cc(125)] Install distribution: Google Chrome
+[0827/014202:VERBOSE1:installer_state.cc(171)] Install distribution: Google Chrome binaries
+[0827/014202:VERBOSE1:install_util.cc(264)] Windows NT 5.1 SP3
+[0827/014203:VERBOSE1:install.cc(108)] Creating per-user Desktop "Google Chrome" shortcut to C:\Archivos de programa\Google\Chrome\Application\chrome.exe.
+[0827/014203:VERBOSE1:install.cc(108)] Creating per-user Quick Launch "Google Chrome" shortcut to C:\Archivos de programa\Google\Chrome\Application\chrome.exe.
+[0827/014203:VERBOSE1:install.cc(108)] Creating per-user Start menu "Google Chrome" shortcut to C:\Archivos de programa\Google\Chrome\Application\chrome.exe.

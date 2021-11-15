@@ -1,0 +1,35 @@
+***************************************************
+*                                                 *
+*Ministerio de Trabajo, Empleo y Seguridad Social *
+*						  *
+***************************************************
+
+Puede utilizar la planilla formulada para contruir 
+la planilla que va a presentar al ministerio.
+
+Esa planilla formulada cuenta con instrucciones y
+fórmulas básicas para hallar las sumatorias al
+final de cada registro.
+
+Sugerimos que utilice la opción de pegado especial, 
+sobre una hoja de cálculo nueva, para evitar que la
+vista previa del sistema encuentre las formulas que
+utilizó en la planilla formulada.
+
+Las fórmulas no son estrictas, es decir, si usted 
+encuentra que puede formular otras partes de la 
+planilla, es libre de hacerlo. Sólo debe recordar
+que el sistema mirará la profundidad del archivo y,
+eventualmente, en lugar de reconocer los resultados
+que haya obtenido de las formulas, encontrará las 
+formulas mismas.
+
+Para mayores consultas utilice la plataforma de 
+CONSULTA CIUDADANA en el tema de ayuda REGOBPAT
+en el siguiente enlace:
+
+http://consultas.mtess.gov.py/
+
+
+
+

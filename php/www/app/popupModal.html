@@ -1,0 +1,169 @@
+<!doctype html>
+<html>
+<head>
+<link href="style.css" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="css/estilos.css">
+<link rel="stylesheet" type="text/css" href="css/dhtmlgoodies_calendar.css">
+<script src="js/dhtmlgoodies_calendar.js"></script>
+
+
+
+<meta charset="utf-8">
+<title>Documento sin título</title>
+
+<style type="text/css">
+.modalDialog {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 1;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog > div {
+	width: 600px;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	background: #fff;
+	background: -moz-linear-gradient(#fff, #999);
+	background: -webkit-linear-gradient(#fff, #999);
+	background: -o-linear-gradient(#fff, #999);
+}
+.close {
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+.modal-body {padding: 2px 16px; background-color:#F0EF00;}
+.close:hover { background: #00d9ff; }
+</style>
+
+
+
+</head>
+
+<body>
+<form id="form1" name="form1" method="post">
+<a href="#openModal">Open Modal</a>
+
+<div id="openModal" class="modalDialog">
+	<div style="background-color: #5cb85c">
+		<a href="#close" title="Close" class="close">X</a>
+		<h2>Modal Box</h2>
+        
+		<p>
+        <table width="100%" border="0" cellpadding="0" cellspacing="0" class="tabla1"  >
+    <tbody>
+      <tr class="fondo_encabezado2" >
+        <td height="44" colspan="3">Adjuntar Documentos<strong></strong></td>
+        </tr>
+      <tr>
+        <td width="17%" height="51" class="eiquetas">&nbsp;Vigente Desde
+        <div id="testDIV">
+    <div class="container">
+        <div class="hero-unit">
+            <input  type="text" placeholder="Desde"  id="pickyDate"/>
+        </div>
+    </div>
+</div>
+        </td>
+        <td width="79%" style="color:#EB1115"><input name="textfield5" type="text" id="textfield5" size="6" readonly><input type="button" value="Cal" onclick="displayCalendar(document.forms[0].textfield5,'dd-mm-yyyy',this)">
+        
+        </td>
+       <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td height="56" class="eiquetas">&nbsp;Vigente Hasta</td>
+        <td style="color:#EB1115"><input type="text" name="textfield6" id="textfield6" size="6" readonly><input type="button" value="Cal" onclick="displayCalendar(document.forms[0].textfield6,'dd-mm-yyyy',this)"></td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td height="40">Ref</td>
+        <td><input type="text" name="textfield" id="textfield"></td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td height="40" colspan="3">&nbsp;<input name="file" type="file" class="" value="" title="LOla" />          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input name="button2" type="button" class="boton3" id="button2" value="Guardar" onclick="displayCalendar(document.forms[0].textfield6,'dd-mm-yyyy',this)"></td>
+        </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td width="4%">&nbsp;</td>
+       
+      </tr>
+      <tr>
+        <td></td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        
+      </tr>
+      <tr>
+        <td height="34">&nbsp;</td>
+        <td>&nbsp;</td>
+        
+      </tr>
+    </tbody>
+  </table>
+        
+        
+        </p>
+	  <p></p>
+	</div>
+</div>
+<nav>
+	<ul>
+		<li><a href="#">Home</a></li>
+		<li><a href="#">Tutorials</a>
+			<ul>
+				<li><a href="#">Photoshop</a></li>
+				<li><a href="#">Illustrator</a></li>
+				<li><a href="#">Web Design</a>
+					<ul>
+						<li><a href="#">HTML</a></li>
+						<li><a href="Untitled-2.html">CSS</a></li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+		<li><a href="#">Articles</a>
+			<ul>
+				<li><a href="#">Web Design</a></li>
+				<li><a href="#">User Experience</a></li>
+			</ul>
+		</li>
+		
+	</ul>
+</nav>
+
+		
+       
+       </form>
+</body>
+</html>

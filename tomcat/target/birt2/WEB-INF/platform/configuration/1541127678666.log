@@ -1,0 +1,8 @@
+!SESSION 2018-11-02 00:01:18.697 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+
+!ENTRY org.eclipse.osgi 0 0 2018-11-02 00:01:18.697
+!MESSAGE The -clean (osgi.clean) option was not successful. Unable to clean the storage area: C:\xampp\tomcat\webapps\birt\WEB-INF\platform\configuration\org.eclipse.osgi

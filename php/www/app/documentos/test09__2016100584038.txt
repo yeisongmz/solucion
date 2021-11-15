@@ -1,0 +1,4 @@
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp
+
+
+la crpeta realmente dice C:\ProgramData\Microsoft\Windows\menu inicio\programas\inicio

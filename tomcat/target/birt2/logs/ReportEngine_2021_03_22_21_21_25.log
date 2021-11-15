@@ -1,0 +1,2494 @@
+mar 22, 2021 9:21:25 PM org.eclipse.birt.report.engine.api.impl.ReportEngine <init>
+DETALLADO: ReportEngine created. EngineConfig: EngineConfig: logDest=/usr/share/tomcat/webapps/birt2/logs;maxRowsPerQuery=-1;logLevel=ALL;org.eclipse.birt.report.engine.api.EngineConfig.scriptObjects={webapplication.projectclasspath=, PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+};BIRT_HOME=;PLATFORM_CONTEXT=org.eclipse.birt.core.framework.PlatformServletContext@2517b660;org.eclipse.birt.report.engine.api.EngineConfig.emitterConfigs={html=org.eclipse.birt.report.engine.api.HTMLRenderOption@54d51b48}; 
+mar 22, 2021 9:21:25 PM org.eclipse.birt.report.engine.extension.internal.ExtensionManager getExtensions
+DETALLADO: Start load extension point: org.eclipse.birt.report.engine.reportitemGeneration
+mar 22, 2021 9:21:25 PM org.eclipse.birt.report.engine.extension.internal.ExtensionManager loadGenerationExtensionDefns
+DETALLADO: Load generation extension: Chart
+mar 22, 2021 9:21:25 PM org.eclipse.birt.report.engine.extension.internal.ExtensionManager getExtensions
+DETALLADO: Start load extension point: org.eclipse.birt.report.engine.reportitemPresentation
+mar 22, 2021 9:21:25 PM org.eclipse.birt.report.engine.extension.internal.ExtensionManager loadPresentationExtensionDefns
+DETALLADO: Load prsentation extension: Chart
+mar 22, 2021 9:21:25 PM org.eclipse.birt.report.engine.extension.internal.ExtensionManager getExtensions
+DETALLADO: Start load extension point: org.eclipse.birt.report.engine.reportitemQuery
+mar 22, 2021 9:21:25 PM org.eclipse.birt.report.engine.extension.internal.ExtensionManager loadQueryExtensionDefns
+DETALLADO: Load query extension: Chart
+mar 22, 2021 9:21:25 PM org.eclipse.birt.report.engine.extension.internal.ExtensionManager getExtensions
+DETALLADO: Start load extension point: org.eclipse.birt.report.engine.emitters
+mar 22, 2021 9:21:25 PM org.eclipse.birt.report.engine.extension.internal.ExtensionManager loadEmitterExtensionDefns
+DETALLADO: Load html emitter org.eclipse.birt.report.engine.emitter.html
+mar 22, 2021 9:21:25 PM org.eclipse.birt.report.engine.extension.internal.ExtensionManager loadEmitterExtensionDefns
+DETALLADO: Load pdf emitter org.eclipse.birt.report.engine.emitter.pdf
+mar 22, 2021 9:21:25 PM org.eclipse.birt.report.engine.extension.internal.ExtensionManager loadEmitterExtensionDefns
+DETALLADO: Load ppt emitter org.eclipse.birt.report.engine.emitter.ppt
+mar 22, 2021 9:21:25 PM org.eclipse.birt.report.engine.extension.internal.ExtensionManager loadEmitterExtensionDefns
+DETALLADO: Load postscript emitter org.eclipse.birt.report.engine.emitter.postscript
+mar 22, 2021 9:21:25 PM org.eclipse.birt.report.engine.extension.internal.ExtensionManager loadEmitterExtensionDefns
+DETALLADO: Load xls emitter org.eclipse.birt.report.engine.emitter.prototype.excel
+mar 22, 2021 9:21:25 PM org.eclipse.birt.report.engine.extension.internal.ExtensionManager loadEmitterExtensionDefns
+DETALLADO: Load doc emitter org.eclipse.birt.report.engine.emitter.word
+mar 22, 2021 9:21:25 PM org.eclipse.birt.report.engine.extension.internal.ExtensionManager getExtensions
+DETALLADO: Start load extension point: org.eclipse.birt.report.engine.reportEventHandler
+mar 22, 2021 9:21:25 PM org.eclipse.birt.report.engine.extension.internal.ExtensionManager getExtensions
+DETALLADO: Start load extension point: org.eclipse.birt.report.engine.reportItemPreparation
+mar 22, 2021 9:21:25 PM org.eclipse.birt.report.engine.extension.internal.ExtensionManager getExtensions
+DETALLADO: Start load extension point: org.eclipse.birt.report.engine.dataExtraction
+mar 22, 2021 9:21:25 PM org.eclipse.birt.report.engine.extension.internal.ExtensionManager loadDataExtractionExtensions
+DETALLADO: Load data extraction extension: org.eclipse.birt.report.engine.dataextraction.csv
+mar 22, 2021 9:21:25 PM org.eclipse.birt.report.engine.extension.internal.ExtensionManager getExtensions
+DETALLADO: Start load extension point: org.eclipse.birt.report.engine.extendedItemFactory
+mar 22, 2021 9:21:25 PM org.eclipse.birt.report.engine.extension.internal.ExtensionManager loadExtendedItems
+DETALLADO: Load extendedItem extension: Crosstab
+mar 22, 2021 9:21:25 PM org.eclipse.birt.report.engine.extension.internal.ExtensionManager loadExtendedItems
+DETALLADO: Load extendedItem extension: CrosstabCell
+mar 22, 2021 9:21:25 PM org.eclipse.birt.report.engine.extension.internal.ExtensionManager loadExtendedItems
+DETALLADO: Load extendedItem extension: AggregationCell
+mar 22, 2021 9:21:27 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDocument
+DETALLADO: ReportEngine.openReportDocument: systemId=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, file=/var/cache/tomcat/temp/documents/BIRTDOCD24B3AD40E8462542A45B6BD7C55AFCA/20210322_212127_569/depositos.rptdocument, options={semanticCheck=false, resourceFolder=/usr/share/tomcat/webapps/birt2} 
+mar 22, 2021 9:21:27 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDesign
+DETALLADO: ReportEngine.openReportDesign: name=file:/usr/share/tomcat/webapps/birt2/depositos.rptdesign, designStream=java.io.FileInputStream@365086ed, options={3} 
+mar 22, 2021 9:21:27 PM org.eclipse.birt.report.model.util.XMLParserPoolImpl createParser
+MÁS DETALLADO: created a new SAX parser
+mar 22, 2021 9:21:27 PM org.eclipse.birt.report.model.util.XMLParserPoolImpl createParser
+MÁS DETALLADO: created a new SAX parser
+mar 22, 2021 9:21:28 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createGetParameterDefinitionTask
+DETALLADO: ReportEngine.createGetParameterDefinitionTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@b76c52f 
+mar 22, 2021 9:21:28 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:21:28 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:21:28 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@432d681a;
+mar 22, 2021 9:21:28 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@432d681a;
+mar 22, 2021 9:21:28 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createGetParameterDefinitionTask
+DETALLADO: ReportEngine.createGetParameterDefinitionTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@b76c52f 
+mar 22, 2021 9:21:28 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:21:28 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:21:28 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.core.ApplicationHttpRequest@2249093;
+mar 22, 2021 9:21:28 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.core.ApplicationHttpRequest@2249093;
+mar 22, 2021 9:21:28 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDocument
+DETALLADO: ReportEngine.openReportDocument: systemId=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, file=/var/cache/tomcat/temp/documents/BIRTDOCD24B3AD40E8462542A45B6BD7C55AFCA/20210322_212127_569/depositos.rptdocument, options={semanticCheck=false, resourceFolder=/usr/share/tomcat/webapps/birt2} 
+mar 22, 2021 9:21:28 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDesign
+DETALLADO: ReportEngine.openReportDesign: name=file:/usr/share/tomcat/webapps/birt2/depositos.rptdesign, designStream=java.io.FileInputStream@1fdaa190, options={3} 
+mar 22, 2021 9:21:28 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createGetParameterDefinitionTask
+DETALLADO: ReportEngine.createGetParameterDefinitionTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@3221e47e 
+mar 22, 2021 9:21:28 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:21:28 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:21:28 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@432d681a;
+mar 22, 2021 9:21:28 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@432d681a;
+mar 22, 2021 9:21:28 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createRunTask
+DETALLADO: ReportEngine.createRunTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@3221e47e 
+mar 22, 2021 9:21:28 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:21:28 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:21:28 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@432d681a;
+mar 22, 2021 9:21:28 PM org.eclipse.birt.report.engine.api.impl.EngineTask loggerParamters
+DETALLADO: Running the report with paramters: 
+mar 22, 2021 9:21:29 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDocument
+DETALLADO: ReportEngine.openReportDocument: systemId=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, file=/var/cache/tomcat/temp/documents/BIRTDOCD24B3AD40E8462542A45B6BD7C55AFCA/20210322_212127_569/depositos.rptdocument, options={semanticCheck=false, resourceFolder=/usr/share/tomcat/webapps/birt2} 
+mar 22, 2021 9:21:29 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDocument
+DETALLADO: ReportEngine.openReportDocument: systemId=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, file=/var/cache/tomcat/temp/documents/BIRTDOCD24B3AD40E8462542A45B6BD7C55AFCA/20210322_212127_569/depositos.rptdocument, options={semanticCheck=false, resourceFolder=/usr/share/tomcat/webapps/birt2} 
+mar 22, 2021 9:21:29 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createRenderTask
+DETALLADO: ReportEngine.createRenderTask: reportDocument=org.eclipse.birt.report.engine.api.impl.ReportDocumentReader@1becca80 
+mar 22, 2021 9:21:29 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:21:29 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDesign
+DETALLADO: ReportEngine.openReportDesign: name=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, designStream=org.eclipse.birt.core.archive.compound.ArchiveEntryInputStream@4f876d6, options={3} 
+mar 22, 2021 9:21:29 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@432d681a;
+mar 22, 2021 9:21:29 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:26:59 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDocument
+DETALLADO: ReportEngine.openReportDocument: systemId=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, file=/var/cache/tomcat/temp/documents/BIRTDOCD24B3AD40E8462542A45B6BD7C55AFCA/20210322_212659_174/depositos.rptdocument, options={semanticCheck=false, resourceFolder=/usr/share/tomcat/webapps/birt2} 
+mar 22, 2021 9:26:59 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDesign
+DETALLADO: ReportEngine.openReportDesign: name=file:/usr/share/tomcat/webapps/birt2/depositos.rptdesign, designStream=java.io.FileInputStream@7b4c902e, options={3} 
+mar 22, 2021 9:26:59 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createGetParameterDefinitionTask
+DETALLADO: ReportEngine.createGetParameterDefinitionTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@29f7da3f 
+mar 22, 2021 9:26:59 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:26:59 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:26:59 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@432d681a;
+mar 22, 2021 9:26:59 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@432d681a;
+mar 22, 2021 9:26:59 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createGetParameterDefinitionTask
+DETALLADO: ReportEngine.createGetParameterDefinitionTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@29f7da3f 
+mar 22, 2021 9:26:59 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:26:59 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:26:59 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.core.ApplicationHttpRequest@296e1704;
+mar 22, 2021 9:26:59 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.core.ApplicationHttpRequest@296e1704;
+mar 22, 2021 9:26:59 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDocument
+DETALLADO: ReportEngine.openReportDocument: systemId=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, file=/var/cache/tomcat/temp/documents/BIRTDOCD24B3AD40E8462542A45B6BD7C55AFCA/20210322_212659_174/depositos.rptdocument, options={semanticCheck=false, resourceFolder=/usr/share/tomcat/webapps/birt2} 
+mar 22, 2021 9:26:59 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDesign
+DETALLADO: ReportEngine.openReportDesign: name=file:/usr/share/tomcat/webapps/birt2/depositos.rptdesign, designStream=java.io.FileInputStream@4b9db13b, options={3} 
+mar 22, 2021 9:26:59 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createGetParameterDefinitionTask
+DETALLADO: ReportEngine.createGetParameterDefinitionTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@54a9b842 
+mar 22, 2021 9:26:59 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:26:59 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:26:59 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@432d681a;
+mar 22, 2021 9:26:59 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@432d681a;
+mar 22, 2021 9:26:59 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createRunTask
+DETALLADO: ReportEngine.createRunTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@54a9b842 
+mar 22, 2021 9:26:59 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:26:59 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:26:59 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@432d681a;
+mar 22, 2021 9:26:59 PM org.eclipse.birt.report.engine.api.impl.EngineTask loggerParamters
+DETALLADO: Running the report with paramters: 
+mar 22, 2021 9:26:59 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDocument
+DETALLADO: ReportEngine.openReportDocument: systemId=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, file=/var/cache/tomcat/temp/documents/BIRTDOCD24B3AD40E8462542A45B6BD7C55AFCA/20210322_212659_174/depositos.rptdocument, options={semanticCheck=false, resourceFolder=/usr/share/tomcat/webapps/birt2} 
+mar 22, 2021 9:26:59 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDocument
+DETALLADO: ReportEngine.openReportDocument: systemId=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, file=/var/cache/tomcat/temp/documents/BIRTDOCD24B3AD40E8462542A45B6BD7C55AFCA/20210322_212659_174/depositos.rptdocument, options={semanticCheck=false, resourceFolder=/usr/share/tomcat/webapps/birt2} 
+mar 22, 2021 9:26:59 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createRenderTask
+DETALLADO: ReportEngine.createRenderTask: reportDocument=org.eclipse.birt.report.engine.api.impl.ReportDocumentReader@2c0fe3e4 
+mar 22, 2021 9:26:59 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:26:59 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDesign
+DETALLADO: ReportEngine.openReportDesign: name=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, designStream=org.eclipse.birt.core.archive.compound.ArchiveEntryInputStream@3397688d, options={3} 
+mar 22, 2021 9:26:59 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@432d681a;
+mar 22, 2021 9:26:59 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:31:21 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDocument
+DETALLADO: ReportEngine.openReportDocument: systemId=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, file=/var/cache/tomcat/temp/documents/BIRTDOCD24B3AD40E8462542A45B6BD7C55AFCA/20210322_213121_587/depositos.rptdocument, options={semanticCheck=false, resourceFolder=/usr/share/tomcat/webapps/birt2} 
+mar 22, 2021 9:31:21 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDesign
+DETALLADO: ReportEngine.openReportDesign: name=file:/usr/share/tomcat/webapps/birt2/depositos.rptdesign, designStream=java.io.FileInputStream@79ac0de6, options={3} 
+mar 22, 2021 9:31:21 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createGetParameterDefinitionTask
+DETALLADO: ReportEngine.createGetParameterDefinitionTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@310d5237 
+mar 22, 2021 9:31:21 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:31:21 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:31:21 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@68639bb7;
+mar 22, 2021 9:31:21 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@68639bb7;
+mar 22, 2021 9:31:21 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createGetParameterDefinitionTask
+DETALLADO: ReportEngine.createGetParameterDefinitionTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@310d5237 
+mar 22, 2021 9:31:21 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:31:21 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:31:21 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.core.ApplicationHttpRequest@44cf3138;
+mar 22, 2021 9:31:21 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.core.ApplicationHttpRequest@44cf3138;
+mar 22, 2021 9:31:21 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDocument
+DETALLADO: ReportEngine.openReportDocument: systemId=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, file=/var/cache/tomcat/temp/documents/BIRTDOCD24B3AD40E8462542A45B6BD7C55AFCA/20210322_213121_587/depositos.rptdocument, options={semanticCheck=false, resourceFolder=/usr/share/tomcat/webapps/birt2} 
+mar 22, 2021 9:31:21 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDesign
+DETALLADO: ReportEngine.openReportDesign: name=file:/usr/share/tomcat/webapps/birt2/depositos.rptdesign, designStream=java.io.FileInputStream@3b6ab252, options={3} 
+mar 22, 2021 9:31:21 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createGetParameterDefinitionTask
+DETALLADO: ReportEngine.createGetParameterDefinitionTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@3875a321 
+mar 22, 2021 9:31:21 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:31:21 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:31:21 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@68639bb7;
+mar 22, 2021 9:31:21 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@68639bb7;
+mar 22, 2021 9:31:21 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createRunTask
+DETALLADO: ReportEngine.createRunTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@3875a321 
+mar 22, 2021 9:31:21 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:31:21 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:31:21 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@68639bb7;
+mar 22, 2021 9:31:21 PM org.eclipse.birt.report.engine.api.impl.EngineTask loggerParamters
+DETALLADO: Running the report with paramters: 
+mar 22, 2021 9:31:22 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDocument
+DETALLADO: ReportEngine.openReportDocument: systemId=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, file=/var/cache/tomcat/temp/documents/BIRTDOCD24B3AD40E8462542A45B6BD7C55AFCA/20210322_213121_587/depositos.rptdocument, options={semanticCheck=false, resourceFolder=/usr/share/tomcat/webapps/birt2} 
+mar 22, 2021 9:31:22 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDocument
+DETALLADO: ReportEngine.openReportDocument: systemId=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, file=/var/cache/tomcat/temp/documents/BIRTDOCD24B3AD40E8462542A45B6BD7C55AFCA/20210322_213121_587/depositos.rptdocument, options={semanticCheck=false, resourceFolder=/usr/share/tomcat/webapps/birt2} 
+mar 22, 2021 9:31:22 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createRenderTask
+DETALLADO: ReportEngine.createRenderTask: reportDocument=org.eclipse.birt.report.engine.api.impl.ReportDocumentReader@479e3085 
+mar 22, 2021 9:31:22 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:31:22 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDesign
+DETALLADO: ReportEngine.openReportDesign: name=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, designStream=org.eclipse.birt.core.archive.compound.ArchiveEntryInputStream@195db668, options={3} 
+mar 22, 2021 9:31:22 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@68639bb7;
+mar 22, 2021 9:31:22 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:37:40 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDocument
+DETALLADO: ReportEngine.openReportDocument: systemId=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, file=/var/cache/tomcat/temp/documents/BIRTDOCD24B3AD40E8462542A45B6BD7C55AFCA/20210322_213740_631/depositos.rptdocument, options={semanticCheck=false, resourceFolder=/usr/share/tomcat/webapps/birt2} 
+mar 22, 2021 9:37:40 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDesign
+DETALLADO: ReportEngine.openReportDesign: name=file:/usr/share/tomcat/webapps/birt2/depositos.rptdesign, designStream=java.io.FileInputStream@7823bd81, options={3} 
+mar 22, 2021 9:37:40 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createGetParameterDefinitionTask
+DETALLADO: ReportEngine.createGetParameterDefinitionTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@2ab6d52f 
+mar 22, 2021 9:37:40 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:37:40 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:37:40 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@432d681a;
+mar 22, 2021 9:37:40 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@432d681a;
+mar 22, 2021 9:37:40 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createGetParameterDefinitionTask
+DETALLADO: ReportEngine.createGetParameterDefinitionTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@2ab6d52f 
+mar 22, 2021 9:37:40 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:37:40 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:37:40 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.core.ApplicationHttpRequest@62a4fe65;
+mar 22, 2021 9:37:40 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.core.ApplicationHttpRequest@62a4fe65;
+mar 22, 2021 9:37:40 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDocument
+DETALLADO: ReportEngine.openReportDocument: systemId=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, file=/var/cache/tomcat/temp/documents/BIRTDOCD24B3AD40E8462542A45B6BD7C55AFCA/20210322_213740_631/depositos.rptdocument, options={semanticCheck=false, resourceFolder=/usr/share/tomcat/webapps/birt2} 
+mar 22, 2021 9:37:40 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDesign
+DETALLADO: ReportEngine.openReportDesign: name=file:/usr/share/tomcat/webapps/birt2/depositos.rptdesign, designStream=java.io.FileInputStream@5e074c44, options={3} 
+mar 22, 2021 9:37:40 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createGetParameterDefinitionTask
+DETALLADO: ReportEngine.createGetParameterDefinitionTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@3d632a78 
+mar 22, 2021 9:37:40 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:37:40 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:37:40 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@432d681a;
+mar 22, 2021 9:37:40 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@432d681a;
+mar 22, 2021 9:37:40 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createRunTask
+DETALLADO: ReportEngine.createRunTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@3d632a78 
+mar 22, 2021 9:37:40 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:37:40 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:37:40 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@432d681a;
+mar 22, 2021 9:37:40 PM org.eclipse.birt.report.engine.api.impl.EngineTask loggerParamters
+DETALLADO: Running the report with paramters: 
+mar 22, 2021 9:37:40 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDocument
+DETALLADO: ReportEngine.openReportDocument: systemId=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, file=/var/cache/tomcat/temp/documents/BIRTDOCD24B3AD40E8462542A45B6BD7C55AFCA/20210322_213740_631/depositos.rptdocument, options={semanticCheck=false, resourceFolder=/usr/share/tomcat/webapps/birt2} 
+mar 22, 2021 9:37:40 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDocument
+DETALLADO: ReportEngine.openReportDocument: systemId=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, file=/var/cache/tomcat/temp/documents/BIRTDOCD24B3AD40E8462542A45B6BD7C55AFCA/20210322_213740_631/depositos.rptdocument, options={semanticCheck=false, resourceFolder=/usr/share/tomcat/webapps/birt2} 
+mar 22, 2021 9:37:40 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createRenderTask
+DETALLADO: ReportEngine.createRenderTask: reportDocument=org.eclipse.birt.report.engine.api.impl.ReportDocumentReader@3a0feb29 
+mar 22, 2021 9:37:40 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:37:40 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDesign
+DETALLADO: ReportEngine.openReportDesign: name=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, designStream=org.eclipse.birt.core.archive.compound.ArchiveEntryInputStream@65567070, options={3} 
+mar 22, 2021 9:37:41 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@432d681a;
+mar 22, 2021 9:37:41 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:43:51 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDocument
+DETALLADO: ReportEngine.openReportDocument: systemId=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, file=/var/cache/tomcat/temp/documents/BIRTDOCD24B3AD40E8462542A45B6BD7C55AFCA/20210322_214351_139/depositos.rptdocument, options={semanticCheck=false, resourceFolder=/usr/share/tomcat/webapps/birt2} 
+mar 22, 2021 9:43:51 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDesign
+DETALLADO: ReportEngine.openReportDesign: name=file:/usr/share/tomcat/webapps/birt2/depositos.rptdesign, designStream=java.io.FileInputStream@66432957, options={3} 
+mar 22, 2021 9:43:51 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createGetParameterDefinitionTask
+DETALLADO: ReportEngine.createGetParameterDefinitionTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@2c9938b0 
+mar 22, 2021 9:43:51 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:43:51 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:43:51 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@68639bb7;
+mar 22, 2021 9:43:51 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@68639bb7;
+mar 22, 2021 9:43:51 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createGetParameterDefinitionTask
+DETALLADO: ReportEngine.createGetParameterDefinitionTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@2c9938b0 
+mar 22, 2021 9:43:51 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:43:51 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:43:51 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.core.ApplicationHttpRequest@438a144d;
+mar 22, 2021 9:43:51 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.core.ApplicationHttpRequest@438a144d;
+mar 22, 2021 9:43:51 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDocument
+DETALLADO: ReportEngine.openReportDocument: systemId=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, file=/var/cache/tomcat/temp/documents/BIRTDOCD24B3AD40E8462542A45B6BD7C55AFCA/20210322_214351_139/depositos.rptdocument, options={semanticCheck=false, resourceFolder=/usr/share/tomcat/webapps/birt2} 
+mar 22, 2021 9:43:51 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDesign
+DETALLADO: ReportEngine.openReportDesign: name=file:/usr/share/tomcat/webapps/birt2/depositos.rptdesign, designStream=java.io.FileInputStream@4a1f464, options={3} 
+mar 22, 2021 9:43:51 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createGetParameterDefinitionTask
+DETALLADO: ReportEngine.createGetParameterDefinitionTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@6f700dd6 
+mar 22, 2021 9:43:51 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:43:51 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:43:51 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@68639bb7;
+mar 22, 2021 9:43:51 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@68639bb7;
+mar 22, 2021 9:43:51 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createRunTask
+DETALLADO: ReportEngine.createRunTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@6f700dd6 
+mar 22, 2021 9:43:51 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:43:51 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:43:51 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@68639bb7;
+mar 22, 2021 9:43:51 PM org.eclipse.birt.report.engine.api.impl.EngineTask loggerParamters
+DETALLADO: Running the report with paramters: 
+mar 22, 2021 9:43:51 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDocument
+DETALLADO: ReportEngine.openReportDocument: systemId=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, file=/var/cache/tomcat/temp/documents/BIRTDOCD24B3AD40E8462542A45B6BD7C55AFCA/20210322_214351_139/depositos.rptdocument, options={semanticCheck=false, resourceFolder=/usr/share/tomcat/webapps/birt2} 
+mar 22, 2021 9:43:51 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDocument
+DETALLADO: ReportEngine.openReportDocument: systemId=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, file=/var/cache/tomcat/temp/documents/BIRTDOCD24B3AD40E8462542A45B6BD7C55AFCA/20210322_214351_139/depositos.rptdocument, options={semanticCheck=false, resourceFolder=/usr/share/tomcat/webapps/birt2} 
+mar 22, 2021 9:43:51 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createRenderTask
+DETALLADO: ReportEngine.createRenderTask: reportDocument=org.eclipse.birt.report.engine.api.impl.ReportDocumentReader@57a7cd53 
+mar 22, 2021 9:43:51 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:43:51 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDesign
+DETALLADO: ReportEngine.openReportDesign: name=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, designStream=org.eclipse.birt.core.archive.compound.ArchiveEntryInputStream@cc2f5c, options={3} 
+mar 22, 2021 9:43:51 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@68639bb7;
+mar 22, 2021 9:43:51 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDocument
+DETALLADO: ReportEngine.openReportDocument: systemId=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, file=/var/cache/tomcat/temp/documents/BIRTDOCD24B3AD40E8462542A45B6BD7C55AFCA/20210322_214352_087/depositos.rptdocument, options={semanticCheck=false, resourceFolder=/usr/share/tomcat/webapps/birt2} 
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDesign
+DETALLADO: ReportEngine.openReportDesign: name=file:/usr/share/tomcat/webapps/birt2/depositos.rptdesign, designStream=java.io.FileInputStream@497bfcd7, options={3} 
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createGetParameterDefinitionTask
+DETALLADO: ReportEngine.createGetParameterDefinitionTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@14bc41fe 
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@432d681a;
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@432d681a;
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createGetParameterDefinitionTask
+DETALLADO: ReportEngine.createGetParameterDefinitionTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@14bc41fe 
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.core.ApplicationHttpRequest@567b1563;
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.core.ApplicationHttpRequest@567b1563;
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDocument
+DETALLADO: ReportEngine.openReportDocument: systemId=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, file=/var/cache/tomcat/temp/documents/BIRTDOCD24B3AD40E8462542A45B6BD7C55AFCA/20210322_214352_087/depositos.rptdocument, options={semanticCheck=false, resourceFolder=/usr/share/tomcat/webapps/birt2} 
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDesign
+DETALLADO: ReportEngine.openReportDesign: name=file:/usr/share/tomcat/webapps/birt2/depositos.rptdesign, designStream=java.io.FileInputStream@3213baa4, options={3} 
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createGetParameterDefinitionTask
+DETALLADO: ReportEngine.createGetParameterDefinitionTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@2dbb1103 
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@432d681a;
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@432d681a;
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createRunTask
+DETALLADO: ReportEngine.createRunTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@2dbb1103 
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@432d681a;
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.EngineTask loggerParamters
+DETALLADO: Running the report with paramters: 
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDocument
+DETALLADO: ReportEngine.openReportDocument: systemId=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, file=/var/cache/tomcat/temp/documents/BIRTDOCD24B3AD40E8462542A45B6BD7C55AFCA/20210322_214352_087/depositos.rptdocument, options={semanticCheck=false, resourceFolder=/usr/share/tomcat/webapps/birt2} 
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDocument
+DETALLADO: ReportEngine.openReportDocument: systemId=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, file=/var/cache/tomcat/temp/documents/BIRTDOCD24B3AD40E8462542A45B6BD7C55AFCA/20210322_214352_087/depositos.rptdocument, options={semanticCheck=false, resourceFolder=/usr/share/tomcat/webapps/birt2} 
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createRenderTask
+DETALLADO: ReportEngine.createRenderTask: reportDocument=org.eclipse.birt.report.engine.api.impl.ReportDocumentReader@3d3377c 
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDesign
+DETALLADO: ReportEngine.openReportDesign: name=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, designStream=org.eclipse.birt.core.archive.compound.ArchiveEntryInputStream@7bb8c5e2, options={3} 
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@432d681a;
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDocument
+DETALLADO: ReportEngine.openReportDocument: systemId=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, file=/var/cache/tomcat/temp/documents/BIRTDOCD24B3AD40E8462542A45B6BD7C55AFCA/20210322_214352_670/depositos.rptdocument, options={semanticCheck=false, resourceFolder=/usr/share/tomcat/webapps/birt2} 
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDesign
+DETALLADO: ReportEngine.openReportDesign: name=file:/usr/share/tomcat/webapps/birt2/depositos.rptdesign, designStream=java.io.FileInputStream@20135642, options={3} 
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createGetParameterDefinitionTask
+DETALLADO: ReportEngine.createGetParameterDefinitionTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@6aa4e8b3 
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@432d681a;
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@432d681a;
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createGetParameterDefinitionTask
+DETALLADO: ReportEngine.createGetParameterDefinitionTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@6aa4e8b3 
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.core.ApplicationHttpRequest@44298153;
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.core.ApplicationHttpRequest@44298153;
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDocument
+DETALLADO: ReportEngine.openReportDocument: systemId=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, file=/var/cache/tomcat/temp/documents/BIRTDOCD24B3AD40E8462542A45B6BD7C55AFCA/20210322_214352_670/depositos.rptdocument, options={semanticCheck=false, resourceFolder=/usr/share/tomcat/webapps/birt2} 
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDesign
+DETALLADO: ReportEngine.openReportDesign: name=file:/usr/share/tomcat/webapps/birt2/depositos.rptdesign, designStream=java.io.FileInputStream@4395e937, options={3} 
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createGetParameterDefinitionTask
+DETALLADO: ReportEngine.createGetParameterDefinitionTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@1afce855 
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@432d681a;
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@432d681a;
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createRunTask
+DETALLADO: ReportEngine.createRunTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@1afce855 
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@432d681a;
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.EngineTask loggerParamters
+DETALLADO: Running the report with paramters: 
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDocument
+DETALLADO: ReportEngine.openReportDocument: systemId=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, file=/var/cache/tomcat/temp/documents/BIRTDOCD24B3AD40E8462542A45B6BD7C55AFCA/20210322_214352_857/depositos.rptdocument, options={semanticCheck=false, resourceFolder=/usr/share/tomcat/webapps/birt2} 
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDesign
+DETALLADO: ReportEngine.openReportDesign: name=file:/usr/share/tomcat/webapps/birt2/depositos.rptdesign, designStream=java.io.FileInputStream@634e9d36, options={3} 
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createGetParameterDefinitionTask
+DETALLADO: ReportEngine.createGetParameterDefinitionTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@1b7a1b6b 
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@68639bb7;
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@68639bb7;
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createGetParameterDefinitionTask
+DETALLADO: ReportEngine.createGetParameterDefinitionTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@1b7a1b6b 
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.core.ApplicationHttpRequest@6163dedd;
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.core.ApplicationHttpRequest@6163dedd;
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDocument
+DETALLADO: ReportEngine.openReportDocument: systemId=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, file=/var/cache/tomcat/temp/documents/BIRTDOCD24B3AD40E8462542A45B6BD7C55AFCA/20210322_214352_670/depositos.rptdocument, options={semanticCheck=false, resourceFolder=/usr/share/tomcat/webapps/birt2} 
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDocument
+DETALLADO: ReportEngine.openReportDocument: systemId=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, file=/var/cache/tomcat/temp/documents/BIRTDOCD24B3AD40E8462542A45B6BD7C55AFCA/20210322_214352_670/depositos.rptdocument, options={semanticCheck=false, resourceFolder=/usr/share/tomcat/webapps/birt2} 
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createRenderTask
+DETALLADO: ReportEngine.createRenderTask: reportDocument=org.eclipse.birt.report.engine.api.impl.ReportDocumentReader@1a3dde46 
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDesign
+DETALLADO: ReportEngine.openReportDesign: name=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, designStream=org.eclipse.birt.core.archive.compound.ArchiveEntryInputStream@47a9f964, options={3} 
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@432d681a;
+mar 22, 2021 9:43:52 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDocument
+DETALLADO: ReportEngine.openReportDocument: systemId=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, file=/var/cache/tomcat/temp/documents/BIRTDOCD24B3AD40E8462542A45B6BD7C55AFCA/20210322_214352_857/depositos.rptdocument, options={semanticCheck=false, resourceFolder=/usr/share/tomcat/webapps/birt2} 
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDesign
+DETALLADO: ReportEngine.openReportDesign: name=file:/usr/share/tomcat/webapps/birt2/depositos.rptdesign, designStream=java.io.FileInputStream@462b323, options={3} 
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createGetParameterDefinitionTask
+DETALLADO: ReportEngine.createGetParameterDefinitionTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@7671199 
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@68639bb7;
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@68639bb7;
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createRunTask
+DETALLADO: ReportEngine.createRunTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@7671199 
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@68639bb7;
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask loggerParamters
+DETALLADO: Running the report with paramters: 
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDocument
+DETALLADO: ReportEngine.openReportDocument: systemId=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, file=/var/cache/tomcat/temp/documents/BIRTDOCD24B3AD40E8462542A45B6BD7C55AFCA/20210322_214353_049/depositos.rptdocument, options={semanticCheck=false, resourceFolder=/usr/share/tomcat/webapps/birt2} 
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDesign
+DETALLADO: ReportEngine.openReportDesign: name=file:/usr/share/tomcat/webapps/birt2/depositos.rptdesign, designStream=java.io.FileInputStream@73b56a91, options={3} 
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createGetParameterDefinitionTask
+DETALLADO: ReportEngine.createGetParameterDefinitionTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@7a1efbdb 
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@432d681a;
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@432d681a;
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createGetParameterDefinitionTask
+DETALLADO: ReportEngine.createGetParameterDefinitionTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@7a1efbdb 
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.core.ApplicationHttpRequest@cbd9d24;
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.core.ApplicationHttpRequest@cbd9d24;
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDocument
+DETALLADO: ReportEngine.openReportDocument: systemId=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, file=/var/cache/tomcat/temp/documents/BIRTDOCD24B3AD40E8462542A45B6BD7C55AFCA/20210322_214352_857/depositos.rptdocument, options={semanticCheck=false, resourceFolder=/usr/share/tomcat/webapps/birt2} 
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDocument
+DETALLADO: ReportEngine.openReportDocument: systemId=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, file=/var/cache/tomcat/temp/documents/BIRTDOCD24B3AD40E8462542A45B6BD7C55AFCA/20210322_214352_857/depositos.rptdocument, options={semanticCheck=false, resourceFolder=/usr/share/tomcat/webapps/birt2} 
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createRenderTask
+DETALLADO: ReportEngine.createRenderTask: reportDocument=org.eclipse.birt.report.engine.api.impl.ReportDocumentReader@15b31079 
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDesign
+DETALLADO: ReportEngine.openReportDesign: name=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, designStream=org.eclipse.birt.core.archive.compound.ArchiveEntryInputStream@142e380a, options={3} 
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@68639bb7;
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDocument
+DETALLADO: ReportEngine.openReportDocument: systemId=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, file=/var/cache/tomcat/temp/documents/BIRTDOCD24B3AD40E8462542A45B6BD7C55AFCA/20210322_214353_049/depositos.rptdocument, options={semanticCheck=false, resourceFolder=/usr/share/tomcat/webapps/birt2} 
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDesign
+DETALLADO: ReportEngine.openReportDesign: name=file:/usr/share/tomcat/webapps/birt2/depositos.rptdesign, designStream=java.io.FileInputStream@307fcee6, options={3} 
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createGetParameterDefinitionTask
+DETALLADO: ReportEngine.createGetParameterDefinitionTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@42ae4788 
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@432d681a;
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@432d681a;
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createRunTask
+DETALLADO: ReportEngine.createRunTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@42ae4788 
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@432d681a;
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask loggerParamters
+DETALLADO: Running the report with paramters: 
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDocument
+DETALLADO: ReportEngine.openReportDocument: systemId=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, file=/var/cache/tomcat/temp/documents/BIRTDOCD24B3AD40E8462542A45B6BD7C55AFCA/20210322_214353_231/depositos.rptdocument, options={semanticCheck=false, resourceFolder=/usr/share/tomcat/webapps/birt2} 
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDesign
+DETALLADO: ReportEngine.openReportDesign: name=file:/usr/share/tomcat/webapps/birt2/depositos.rptdesign, designStream=java.io.FileInputStream@36947865, options={3} 
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createGetParameterDefinitionTask
+DETALLADO: ReportEngine.createGetParameterDefinitionTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@7822a0d5 
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@68639bb7;
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@68639bb7;
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createGetParameterDefinitionTask
+DETALLADO: ReportEngine.createGetParameterDefinitionTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@7822a0d5 
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.core.ApplicationHttpRequest@6dfbf72;
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.core.ApplicationHttpRequest@6dfbf72;
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDocument
+DETALLADO: ReportEngine.openReportDocument: systemId=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, file=/var/cache/tomcat/temp/documents/BIRTDOCD24B3AD40E8462542A45B6BD7C55AFCA/20210322_214353_049/depositos.rptdocument, options={semanticCheck=false, resourceFolder=/usr/share/tomcat/webapps/birt2} 
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDocument
+DETALLADO: ReportEngine.openReportDocument: systemId=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, file=/var/cache/tomcat/temp/documents/BIRTDOCD24B3AD40E8462542A45B6BD7C55AFCA/20210322_214353_049/depositos.rptdocument, options={semanticCheck=false, resourceFolder=/usr/share/tomcat/webapps/birt2} 
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createRenderTask
+DETALLADO: ReportEngine.createRenderTask: reportDocument=org.eclipse.birt.report.engine.api.impl.ReportDocumentReader@51986a54 
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDesign
+DETALLADO: ReportEngine.openReportDesign: name=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, designStream=org.eclipse.birt.core.archive.compound.ArchiveEntryInputStream@179731b9, options={3} 
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@432d681a;
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDocument
+DETALLADO: ReportEngine.openReportDocument: systemId=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, file=/var/cache/tomcat/temp/documents/BIRTDOCD24B3AD40E8462542A45B6BD7C55AFCA/20210322_214353_231/depositos.rptdocument, options={semanticCheck=false, resourceFolder=/usr/share/tomcat/webapps/birt2} 
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDesign
+DETALLADO: ReportEngine.openReportDesign: name=file:/usr/share/tomcat/webapps/birt2/depositos.rptdesign, designStream=java.io.FileInputStream@996962a, options={3} 
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createGetParameterDefinitionTask
+DETALLADO: ReportEngine.createGetParameterDefinitionTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@8b4600e 
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@68639bb7;
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@68639bb7;
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createRunTask
+DETALLADO: ReportEngine.createRunTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@8b4600e 
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@68639bb7;
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask loggerParamters
+DETALLADO: Running the report with paramters: 
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDocument
+DETALLADO: ReportEngine.openReportDocument: systemId=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, file=/var/cache/tomcat/temp/documents/BIRTDOCD24B3AD40E8462542A45B6BD7C55AFCA/20210322_214353_433/depositos.rptdocument, options={semanticCheck=false, resourceFolder=/usr/share/tomcat/webapps/birt2} 
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDesign
+DETALLADO: ReportEngine.openReportDesign: name=file:/usr/share/tomcat/webapps/birt2/depositos.rptdesign, designStream=java.io.FileInputStream@5b8908e8, options={3} 
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createGetParameterDefinitionTask
+DETALLADO: ReportEngine.createGetParameterDefinitionTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@1b50ba5e 
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@432d681a;
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@432d681a;
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createGetParameterDefinitionTask
+DETALLADO: ReportEngine.createGetParameterDefinitionTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@1b50ba5e 
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.core.ApplicationHttpRequest@8c2c76c;
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.core.ApplicationHttpRequest@8c2c76c;
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDocument
+DETALLADO: ReportEngine.openReportDocument: systemId=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, file=/var/cache/tomcat/temp/documents/BIRTDOCD24B3AD40E8462542A45B6BD7C55AFCA/20210322_214353_231/depositos.rptdocument, options={semanticCheck=false, resourceFolder=/usr/share/tomcat/webapps/birt2} 
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDocument
+DETALLADO: ReportEngine.openReportDocument: systemId=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, file=/var/cache/tomcat/temp/documents/BIRTDOCD24B3AD40E8462542A45B6BD7C55AFCA/20210322_214353_231/depositos.rptdocument, options={semanticCheck=false, resourceFolder=/usr/share/tomcat/webapps/birt2} 
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createRenderTask
+DETALLADO: ReportEngine.createRenderTask: reportDocument=org.eclipse.birt.report.engine.api.impl.ReportDocumentReader@74e2c3d2 
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDesign
+DETALLADO: ReportEngine.openReportDesign: name=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, designStream=org.eclipse.birt.core.archive.compound.ArchiveEntryInputStream@28f561a9, options={3} 
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@68639bb7;
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDocument
+DETALLADO: ReportEngine.openReportDocument: systemId=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, file=/var/cache/tomcat/temp/documents/BIRTDOCD24B3AD40E8462542A45B6BD7C55AFCA/20210322_214353_433/depositos.rptdocument, options={semanticCheck=false, resourceFolder=/usr/share/tomcat/webapps/birt2} 
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDesign
+DETALLADO: ReportEngine.openReportDesign: name=file:/usr/share/tomcat/webapps/birt2/depositos.rptdesign, designStream=java.io.FileInputStream@68773516, options={3} 
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createGetParameterDefinitionTask
+DETALLADO: ReportEngine.createGetParameterDefinitionTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@49adc89b 
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@68639bb7;
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@68639bb7;
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createRunTask
+DETALLADO: ReportEngine.createRunTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@49adc89b 
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@68639bb7;
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask loggerParamters
+DETALLADO: Running the report with paramters: 
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDocument
+DETALLADO: ReportEngine.openReportDocument: systemId=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, file=/var/cache/tomcat/temp/documents/BIRTDOCD24B3AD40E8462542A45B6BD7C55AFCA/20210322_214353_621/depositos.rptdocument, options={semanticCheck=false, resourceFolder=/usr/share/tomcat/webapps/birt2} 
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDesign
+DETALLADO: ReportEngine.openReportDesign: name=file:/usr/share/tomcat/webapps/birt2/depositos.rptdesign, designStream=java.io.FileInputStream@1352af8, options={3} 
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createGetParameterDefinitionTask
+DETALLADO: ReportEngine.createGetParameterDefinitionTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@486f0089 
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@432d681a;
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@432d681a;
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createGetParameterDefinitionTask
+DETALLADO: ReportEngine.createGetParameterDefinitionTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@486f0089 
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.core.ApplicationHttpRequest@10d9ffbf;
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.core.ApplicationHttpRequest@10d9ffbf;
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDocument
+DETALLADO: ReportEngine.openReportDocument: systemId=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, file=/var/cache/tomcat/temp/documents/BIRTDOCD24B3AD40E8462542A45B6BD7C55AFCA/20210322_214353_433/depositos.rptdocument, options={semanticCheck=false, resourceFolder=/usr/share/tomcat/webapps/birt2} 
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDocument
+DETALLADO: ReportEngine.openReportDocument: systemId=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, file=/var/cache/tomcat/temp/documents/BIRTDOCD24B3AD40E8462542A45B6BD7C55AFCA/20210322_214353_433/depositos.rptdocument, options={semanticCheck=false, resourceFolder=/usr/share/tomcat/webapps/birt2} 
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createRenderTask
+DETALLADO: ReportEngine.createRenderTask: reportDocument=org.eclipse.birt.report.engine.api.impl.ReportDocumentReader@68e5c1ce 
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDesign
+DETALLADO: ReportEngine.openReportDesign: name=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, designStream=org.eclipse.birt.core.archive.compound.ArchiveEntryInputStream@49763f4, options={3} 
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@68639bb7;
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDocument
+DETALLADO: ReportEngine.openReportDocument: systemId=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, file=/var/cache/tomcat/temp/documents/BIRTDOCD24B3AD40E8462542A45B6BD7C55AFCA/20210322_214353_621/depositos.rptdocument, options={semanticCheck=false, resourceFolder=/usr/share/tomcat/webapps/birt2} 
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDesign
+DETALLADO: ReportEngine.openReportDesign: name=file:/usr/share/tomcat/webapps/birt2/depositos.rptdesign, designStream=java.io.FileInputStream@7487f55c, options={3} 
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createGetParameterDefinitionTask
+DETALLADO: ReportEngine.createGetParameterDefinitionTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@12126578 
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@432d681a;
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@432d681a;
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createRunTask
+DETALLADO: ReportEngine.createRunTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@12126578 
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@432d681a;
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask loggerParamters
+DETALLADO: Running the report with paramters: 
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDocument
+DETALLADO: ReportEngine.openReportDocument: systemId=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, file=/var/cache/tomcat/temp/documents/BIRTDOCD24B3AD40E8462542A45B6BD7C55AFCA/20210322_214353_808/depositos.rptdocument, options={semanticCheck=false, resourceFolder=/usr/share/tomcat/webapps/birt2} 
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDesign
+DETALLADO: ReportEngine.openReportDesign: name=file:/usr/share/tomcat/webapps/birt2/depositos.rptdesign, designStream=java.io.FileInputStream@6ab1d235, options={3} 
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createGetParameterDefinitionTask
+DETALLADO: ReportEngine.createGetParameterDefinitionTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@7db19756 
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@68639bb7;
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@68639bb7;
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createGetParameterDefinitionTask
+DETALLADO: ReportEngine.createGetParameterDefinitionTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@7db19756 
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.core.ApplicationHttpRequest@32eefd81;
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.core.ApplicationHttpRequest@32eefd81;
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDocument
+DETALLADO: ReportEngine.openReportDocument: systemId=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, file=/var/cache/tomcat/temp/documents/BIRTDOCD24B3AD40E8462542A45B6BD7C55AFCA/20210322_214353_621/depositos.rptdocument, options={semanticCheck=false, resourceFolder=/usr/share/tomcat/webapps/birt2} 
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDocument
+DETALLADO: ReportEngine.openReportDocument: systemId=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, file=/var/cache/tomcat/temp/documents/BIRTDOCD24B3AD40E8462542A45B6BD7C55AFCA/20210322_214353_621/depositos.rptdocument, options={semanticCheck=false, resourceFolder=/usr/share/tomcat/webapps/birt2} 
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createRenderTask
+DETALLADO: ReportEngine.createRenderTask: reportDocument=org.eclipse.birt.report.engine.api.impl.ReportDocumentReader@4cc075cb 
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDesign
+DETALLADO: ReportEngine.openReportDesign: name=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, designStream=org.eclipse.birt.core.archive.compound.ArchiveEntryInputStream@1ed6e42a, options={3} 
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@432d681a;
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDocument
+DETALLADO: ReportEngine.openReportDocument: systemId=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, file=/var/cache/tomcat/temp/documents/BIRTDOCD24B3AD40E8462542A45B6BD7C55AFCA/20210322_214353_808/depositos.rptdocument, options={semanticCheck=false, resourceFolder=/usr/share/tomcat/webapps/birt2} 
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDesign
+DETALLADO: ReportEngine.openReportDesign: name=file:/usr/share/tomcat/webapps/birt2/depositos.rptdesign, designStream=java.io.FileInputStream@56e61702, options={3} 
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createGetParameterDefinitionTask
+DETALLADO: ReportEngine.createGetParameterDefinitionTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@2ecbb3a 
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@432d681a;
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@432d681a;
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createRunTask
+DETALLADO: ReportEngine.createRunTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@2ecbb3a 
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@432d681a;
+mar 22, 2021 9:43:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask loggerParamters
+DETALLADO: Running the report with paramters: 
+mar 22, 2021 9:43:54 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDocument
+DETALLADO: ReportEngine.openReportDocument: systemId=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, file=/var/cache/tomcat/temp/documents/BIRTDOCD24B3AD40E8462542A45B6BD7C55AFCA/20210322_214354_015/depositos.rptdocument, options={semanticCheck=false, resourceFolder=/usr/share/tomcat/webapps/birt2} 
+mar 22, 2021 9:43:54 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDesign
+DETALLADO: ReportEngine.openReportDesign: name=file:/usr/share/tomcat/webapps/birt2/depositos.rptdesign, designStream=java.io.FileInputStream@b2a5072, options={3} 
+mar 22, 2021 9:43:54 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createGetParameterDefinitionTask
+DETALLADO: ReportEngine.createGetParameterDefinitionTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@2df264b1 
+mar 22, 2021 9:43:54 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:43:54 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:43:54 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@68639bb7;
+mar 22, 2021 9:43:54 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@68639bb7;
+mar 22, 2021 9:43:54 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createGetParameterDefinitionTask
+DETALLADO: ReportEngine.createGetParameterDefinitionTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@2df264b1 
+mar 22, 2021 9:43:54 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:43:54 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:43:54 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.core.ApplicationHttpRequest@49e7aae3;
+mar 22, 2021 9:43:54 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.core.ApplicationHttpRequest@49e7aae3;
+mar 22, 2021 9:43:54 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDocument
+DETALLADO: ReportEngine.openReportDocument: systemId=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, file=/var/cache/tomcat/temp/documents/BIRTDOCD24B3AD40E8462542A45B6BD7C55AFCA/20210322_214353_808/depositos.rptdocument, options={semanticCheck=false, resourceFolder=/usr/share/tomcat/webapps/birt2} 
+mar 22, 2021 9:43:54 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDocument
+DETALLADO: ReportEngine.openReportDocument: systemId=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, file=/var/cache/tomcat/temp/documents/BIRTDOCD24B3AD40E8462542A45B6BD7C55AFCA/20210322_214353_808/depositos.rptdocument, options={semanticCheck=false, resourceFolder=/usr/share/tomcat/webapps/birt2} 
+mar 22, 2021 9:43:54 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createRenderTask
+DETALLADO: ReportEngine.createRenderTask: reportDocument=org.eclipse.birt.report.engine.api.impl.ReportDocumentReader@45b890d1 
+mar 22, 2021 9:43:54 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:43:54 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDesign
+DETALLADO: ReportEngine.openReportDesign: name=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, designStream=org.eclipse.birt.core.archive.compound.ArchiveEntryInputStream@450501e2, options={3} 
+mar 22, 2021 9:43:54 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@432d681a;
+mar 22, 2021 9:43:54 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:43:54 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDocument
+DETALLADO: ReportEngine.openReportDocument: systemId=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, file=/var/cache/tomcat/temp/documents/BIRTDOCD24B3AD40E8462542A45B6BD7C55AFCA/20210322_214354_015/depositos.rptdocument, options={semanticCheck=false, resourceFolder=/usr/share/tomcat/webapps/birt2} 
+mar 22, 2021 9:43:54 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDesign
+DETALLADO: ReportEngine.openReportDesign: name=file:/usr/share/tomcat/webapps/birt2/depositos.rptdesign, designStream=java.io.FileInputStream@6dc309b3, options={3} 
+mar 22, 2021 9:43:54 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createGetParameterDefinitionTask
+DETALLADO: ReportEngine.createGetParameterDefinitionTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@24062c92 
+mar 22, 2021 9:43:54 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:43:54 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:43:54 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@432d681a;
+mar 22, 2021 9:43:54 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@432d681a;
+mar 22, 2021 9:43:54 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createRunTask
+DETALLADO: ReportEngine.createRunTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@24062c92 
+mar 22, 2021 9:43:54 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:43:54 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:43:54 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@432d681a;
+mar 22, 2021 9:43:54 PM org.eclipse.birt.report.engine.api.impl.EngineTask loggerParamters
+DETALLADO: Running the report with paramters: 
+mar 22, 2021 9:43:54 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDocument
+DETALLADO: ReportEngine.openReportDocument: systemId=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, file=/var/cache/tomcat/temp/documents/BIRTDOCD24B3AD40E8462542A45B6BD7C55AFCA/20210322_214354_216/depositos.rptdocument, options={semanticCheck=false, resourceFolder=/usr/share/tomcat/webapps/birt2} 
+mar 22, 2021 9:43:54 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDesign
+DETALLADO: ReportEngine.openReportDesign: name=file:/usr/share/tomcat/webapps/birt2/depositos.rptdesign, designStream=java.io.FileInputStream@27e049d4, options={3} 
+mar 22, 2021 9:43:54 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createGetParameterDefinitionTask
+DETALLADO: ReportEngine.createGetParameterDefinitionTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@2ec5f839 
+mar 22, 2021 9:43:54 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:43:54 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:43:54 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@68639bb7;
+mar 22, 2021 9:43:54 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@68639bb7;
+mar 22, 2021 9:43:54 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createGetParameterDefinitionTask
+DETALLADO: ReportEngine.createGetParameterDefinitionTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@2ec5f839 
+mar 22, 2021 9:43:54 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:43:54 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:43:54 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.core.ApplicationHttpRequest@3c7e7261;
+mar 22, 2021 9:43:54 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.core.ApplicationHttpRequest@3c7e7261;
+mar 22, 2021 9:43:54 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDocument
+DETALLADO: ReportEngine.openReportDocument: systemId=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, file=/var/cache/tomcat/temp/documents/BIRTDOCD24B3AD40E8462542A45B6BD7C55AFCA/20210322_214354_015/depositos.rptdocument, options={semanticCheck=false, resourceFolder=/usr/share/tomcat/webapps/birt2} 
+mar 22, 2021 9:43:54 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDocument
+DETALLADO: ReportEngine.openReportDocument: systemId=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, file=/var/cache/tomcat/temp/documents/BIRTDOCD24B3AD40E8462542A45B6BD7C55AFCA/20210322_214354_015/depositos.rptdocument, options={semanticCheck=false, resourceFolder=/usr/share/tomcat/webapps/birt2} 
+mar 22, 2021 9:43:54 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createRenderTask
+DETALLADO: ReportEngine.createRenderTask: reportDocument=org.eclipse.birt.report.engine.api.impl.ReportDocumentReader@5054bc69 
+mar 22, 2021 9:43:54 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:43:54 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDesign
+DETALLADO: ReportEngine.openReportDesign: name=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, designStream=org.eclipse.birt.core.archive.compound.ArchiveEntryInputStream@22d39f85, options={3} 
+mar 22, 2021 9:43:54 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@432d681a;
+mar 22, 2021 9:43:54 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:43:54 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDocument
+DETALLADO: ReportEngine.openReportDocument: systemId=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, file=/var/cache/tomcat/temp/documents/BIRTDOCD24B3AD40E8462542A45B6BD7C55AFCA/20210322_214354_216/depositos.rptdocument, options={semanticCheck=false, resourceFolder=/usr/share/tomcat/webapps/birt2} 
+mar 22, 2021 9:43:54 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDesign
+DETALLADO: ReportEngine.openReportDesign: name=file:/usr/share/tomcat/webapps/birt2/depositos.rptdesign, designStream=java.io.FileInputStream@3b70e350, options={3} 
+mar 22, 2021 9:43:54 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createGetParameterDefinitionTask
+DETALLADO: ReportEngine.createGetParameterDefinitionTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@7952d82b 
+mar 22, 2021 9:43:54 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:43:54 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:43:54 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@432d681a;
+mar 22, 2021 9:43:54 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@432d681a;
+mar 22, 2021 9:43:54 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createRunTask
+DETALLADO: ReportEngine.createRunTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@7952d82b 
+mar 22, 2021 9:43:54 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:43:54 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 22, 2021 9:43:54 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@432d681a;
+mar 22, 2021 9:43:54 PM org.eclipse.birt.report.engine.api.impl.EngineTask loggerParamters
+DETALLADO: Running the report with paramters: 
+mar 22, 2021 9:43:54 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDocument
+DETALLADO: ReportEngine.openReportDocument: systemId=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, file=/var/cache/tomcat/temp/documents/BIRTDOCD24B3AD40E8462542A45B6BD7C55AFCA/20210322_214354_216/depositos.rptdocument, options={semanticCheck=false, resourceFolder=/usr/share/tomcat/webapps/birt2} 
+mar 22, 2021 9:43:54 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDocument
+DETALLADO: ReportEngine.openReportDocument: systemId=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, file=/var/cache/tomcat/temp/documents/BIRTDOCD24B3AD40E8462542A45B6BD7C55AFCA/20210322_214354_216/depositos.rptdocument, options={semanticCheck=false, resourceFolder=/usr/share/tomcat/webapps/birt2} 
+mar 22, 2021 9:43:54 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createRenderTask
+DETALLADO: ReportEngine.createRenderTask: reportDocument=org.eclipse.birt.report.engine.api.impl.ReportDocumentReader@2fdb25a9 
+mar 22, 2021 9:43:54 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 22, 2021 9:43:54 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDesign
+DETALLADO: ReportEngine.openReportDesign: name=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, designStream=org.eclipse.birt.core.archive.compound.ArchiveEntryInputStream@1e905778, options={3} 
+mar 22, 2021 9:43:54 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@432d681a;
+mar 22, 2021 9:43:54 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 23, 2021 8:10:17 AM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDocument
+DETALLADO: ReportEngine.openReportDocument: systemId=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, file=/usr/share/tomcat/webapps/birt2/documents/BIRTDOC9B60C2028879F7B02E83B12CB2E24D53/20210323_081017_311/depositos.rptdocument, options={semanticCheck=false, resourceFolder=/usr/share/tomcat/webapps/birt2} 
+mar 23, 2021 8:10:17 AM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDesign
+DETALLADO: ReportEngine.openReportDesign: name=file:/usr/share/tomcat/webapps/birt2/depositos.rptdesign, designStream=java.io.FileInputStream@24c41377, options={3} 
+mar 23, 2021 8:10:17 AM org.eclipse.birt.report.engine.api.impl.ReportEngine createGetParameterDefinitionTask
+DETALLADO: ReportEngine.createGetParameterDefinitionTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@488dc360 
+mar 23, 2021 8:10:17 AM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 23, 2021 8:10:17 AM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 23, 2021 8:10:17 AM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@68639bb7;
+mar 23, 2021 8:10:17 AM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@68639bb7;
+mar 23, 2021 8:10:17 AM org.eclipse.birt.report.engine.api.impl.ReportEngine createGetParameterDefinitionTask
+DETALLADO: ReportEngine.createGetParameterDefinitionTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@488dc360 
+mar 23, 2021 8:10:17 AM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 23, 2021 8:10:17 AM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 23, 2021 8:10:17 AM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.core.ApplicationHttpRequest@4380db29;
+mar 23, 2021 8:10:17 AM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.core.ApplicationHttpRequest@4380db29;
+mar 23, 2021 8:10:17 AM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDocument
+DETALLADO: ReportEngine.openReportDocument: systemId=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, file=/usr/share/tomcat/webapps/birt2/documents/BIRTDOC9B60C2028879F7B02E83B12CB2E24D53/20210323_081017_311/depositos.rptdocument, options={semanticCheck=false, resourceFolder=/usr/share/tomcat/webapps/birt2} 
+mar 23, 2021 8:10:17 AM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDesign
+DETALLADO: ReportEngine.openReportDesign: name=file:/usr/share/tomcat/webapps/birt2/depositos.rptdesign, designStream=java.io.FileInputStream@283f2589, options={3} 
+mar 23, 2021 8:10:17 AM org.eclipse.birt.report.engine.api.impl.ReportEngine createGetParameterDefinitionTask
+DETALLADO: ReportEngine.createGetParameterDefinitionTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@43541b03 
+mar 23, 2021 8:10:17 AM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 23, 2021 8:10:17 AM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 23, 2021 8:10:17 AM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@68639bb7;
+mar 23, 2021 8:10:17 AM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@68639bb7;
+mar 23, 2021 8:10:17 AM org.eclipse.birt.report.engine.api.impl.ReportEngine createRunTask
+DETALLADO: ReportEngine.createRunTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@43541b03 
+mar 23, 2021 8:10:17 AM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 23, 2021 8:10:17 AM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 23, 2021 8:10:17 AM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@68639bb7;
+mar 23, 2021 8:10:17 AM org.eclipse.birt.report.engine.api.impl.EngineTask loggerParamters
+DETALLADO: Running the report with paramters: 
+mar 23, 2021 8:10:17 AM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDocument
+DETALLADO: ReportEngine.openReportDocument: systemId=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, file=/usr/share/tomcat/webapps/birt2/documents/BIRTDOC9B60C2028879F7B02E83B12CB2E24D53/20210323_081017_311/depositos.rptdocument, options={semanticCheck=false, resourceFolder=/usr/share/tomcat/webapps/birt2} 
+mar 23, 2021 8:10:17 AM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDocument
+DETALLADO: ReportEngine.openReportDocument: systemId=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, file=/usr/share/tomcat/webapps/birt2/documents/BIRTDOC9B60C2028879F7B02E83B12CB2E24D53/20210323_081017_311/depositos.rptdocument, options={semanticCheck=false, resourceFolder=/usr/share/tomcat/webapps/birt2} 
+mar 23, 2021 8:10:17 AM org.eclipse.birt.report.engine.api.impl.ReportEngine createRenderTask
+DETALLADO: ReportEngine.createRenderTask: reportDocument=org.eclipse.birt.report.engine.api.impl.ReportDocumentReader@5a669e11 
+mar 23, 2021 8:10:17 AM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 23, 2021 8:10:17 AM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDesign
+DETALLADO: ReportEngine.openReportDesign: name=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, designStream=org.eclipse.birt.core.archive.compound.ArchiveEntryInputStream@4b9184fa, options={3} 
+mar 23, 2021 8:10:17 AM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@68639bb7;
+mar 23, 2021 8:10:17 AM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 23, 2021 8:34:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDocument
+DETALLADO: ReportEngine.openReportDocument: systemId=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, file=/usr/share/tomcat/webapps/birt2/documents/BIRTDOCF9A1F886E55CD7F02E0809D53C5DB46A/20210323_203453_543/depositos.rptdocument, options={semanticCheck=false, resourceFolder=/usr/share/tomcat/webapps/birt2} 
+mar 23, 2021 8:34:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDesign
+DETALLADO: ReportEngine.openReportDesign: name=file:/usr/share/tomcat/webapps/birt2/depositos.rptdesign, designStream=java.io.FileInputStream@45ce1433, options={3} 
+mar 23, 2021 8:34:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createGetParameterDefinitionTask
+DETALLADO: ReportEngine.createGetParameterDefinitionTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@67b558ca 
+mar 23, 2021 8:34:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 23, 2021 8:34:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 23, 2021 8:34:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@12cb2cd9;
+mar 23, 2021 8:34:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@12cb2cd9;
+mar 23, 2021 8:34:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createGetParameterDefinitionTask
+DETALLADO: ReportEngine.createGetParameterDefinitionTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@67b558ca 
+mar 23, 2021 8:34:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 23, 2021 8:34:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 23, 2021 8:34:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.core.ApplicationHttpRequest@4343d1d2;
+mar 23, 2021 8:34:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.core.ApplicationHttpRequest@4343d1d2;
+mar 23, 2021 8:34:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDocument
+DETALLADO: ReportEngine.openReportDocument: systemId=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, file=/usr/share/tomcat/webapps/birt2/documents/BIRTDOCF9A1F886E55CD7F02E0809D53C5DB46A/20210323_203453_744/depositos.rptdocument, options={semanticCheck=false, resourceFolder=/usr/share/tomcat/webapps/birt2} 
+mar 23, 2021 8:34:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDesign
+DETALLADO: ReportEngine.openReportDesign: name=file:/usr/share/tomcat/webapps/birt2/depositos.rptdesign, designStream=java.io.FileInputStream@44096387, options={3} 
+mar 23, 2021 8:34:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createGetParameterDefinitionTask
+DETALLADO: ReportEngine.createGetParameterDefinitionTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@31422923 
+mar 23, 2021 8:34:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 23, 2021 8:34:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 23, 2021 8:34:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@432d681a;
+mar 23, 2021 8:34:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@432d681a;
+mar 23, 2021 8:34:53 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createGetParameterDefinitionTask
+DETALLADO: ReportEngine.createGetParameterDefinitionTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@31422923 
+mar 23, 2021 8:34:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 23, 2021 8:34:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 23, 2021 8:34:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.core.ApplicationHttpRequest@278954d2;
+mar 23, 2021 8:34:53 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.core.ApplicationHttpRequest@278954d2;
+mar 23, 2021 8:34:54 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDocument
+DETALLADO: ReportEngine.openReportDocument: systemId=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, file=/usr/share/tomcat/webapps/birt2/documents/BIRTDOCF9A1F886E55CD7F02E0809D53C5DB46A/20210323_203453_744/depositos.rptdocument, options={semanticCheck=false, resourceFolder=/usr/share/tomcat/webapps/birt2} 
+mar 23, 2021 8:34:54 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDesign
+DETALLADO: ReportEngine.openReportDesign: name=file:/usr/share/tomcat/webapps/birt2/depositos.rptdesign, designStream=java.io.FileInputStream@4e7506cd, options={3} 
+mar 23, 2021 8:34:54 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createGetParameterDefinitionTask
+DETALLADO: ReportEngine.createGetParameterDefinitionTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@126a1648 
+mar 23, 2021 8:34:54 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 23, 2021 8:34:54 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 23, 2021 8:34:54 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@432d681a;
+mar 23, 2021 8:34:54 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@432d681a;
+mar 23, 2021 8:34:54 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createRunTask
+DETALLADO: ReportEngine.createRunTask: reportRunnable=org.eclipse.birt.report.engine.api.impl.ReportRunnable@126a1648 
+mar 23, 2021 8:34:54 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 23, 2021 8:34:54 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)
+mar 23, 2021 8:34:54 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@432d681a;
+mar 23, 2021 8:34:54 PM org.eclipse.birt.report.engine.api.impl.EngineTask loggerParamters
+DETALLADO: Running the report with paramters: 
+mar 23, 2021 8:34:54 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDocument
+DETALLADO: ReportEngine.openReportDocument: systemId=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, file=/usr/share/tomcat/webapps/birt2/documents/BIRTDOCF9A1F886E55CD7F02E0809D53C5DB46A/20210323_203453_744/depositos.rptdocument, options={semanticCheck=false, resourceFolder=/usr/share/tomcat/webapps/birt2} 
+mar 23, 2021 8:34:54 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDocument
+DETALLADO: ReportEngine.openReportDocument: systemId=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, file=/usr/share/tomcat/webapps/birt2/documents/BIRTDOCF9A1F886E55CD7F02E0809D53C5DB46A/20210323_203453_744/depositos.rptdocument, options={semanticCheck=false, resourceFolder=/usr/share/tomcat/webapps/birt2} 
+mar 23, 2021 8:34:54 PM org.eclipse.birt.report.engine.api.impl.ReportEngine createRenderTask
+DETALLADO: ReportEngine.createRenderTask: reportDocument=org.eclipse.birt.report.engine.api.impl.ReportDocumentReader@12bb0220 
+mar 23, 2021 8:34:54 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;
+mar 23, 2021 8:34:54 PM org.eclipse.birt.report.engine.api.impl.ReportEngine openReportDesign
+DETALLADO: ReportEngine.openReportDesign: name=/usr/share/tomcat/webapps/birt2/depositos.rptdesign, designStream=org.eclipse.birt.core.archive.compound.ArchiveEntryInputStream@337df82, options={3} 
+mar 23, 2021 8:34:54 PM org.eclipse.birt.report.engine.api.impl.EngineTask setAppContext
+DETALLADO: EngineTask.setAppContext: context=webapplication.projectclasspath=;CHART_RESOLUTION=null;org.eclipse.birt.data.engine.dataset.cache.option=false;birt.viewer.resource.path=/usr/share/tomcat/webapps/birt2;org.eclipse.birt.data.engine.cube.inmemory.size=0;PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+;BIRT_VIEWER_HTTPSERVET_REQUEST=org.apache.catalina.connector.RequestFacade@432d681a;
+mar 23, 2021 8:34:54 PM org.eclipse.birt.report.engine.api.impl.EngineTask setLocale
+DETALLADO: EngineTask.setLocale: locale=español (España)

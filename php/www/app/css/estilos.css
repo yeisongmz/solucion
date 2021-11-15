@@ -1,0 +1,397 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+    font-family: 'arialregular';
+    src: url('../fuentes/arial-webfont.woff2') format('woff2'),
+         url('../fuentes/arial-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'arialbold';
+    src:  url('../fuentes/arialbd-webfont.woff2') format('woff2'),
+         url('../fuentes/arialbd-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+a.tooltip {
+    outline: none;
+    text-decoration: none;
+    border-bottom: dotted 1px blue;
+    position: relative;
+}
+
+a.tooltip strong {
+    line-height: 30px;
+}
+
+a.tooltip > span {
+	width: 270px;
+	padding: 10px 20px;
+	margin-top: 0;
+	margin-left: -10px;
+	opacity: 0;
+	visibility: hidden;
+	z-index: 10;
+	position: absolute;
+	font-family: Arial;
+	font-size: 12px;
+	font-style: normal;
+	border-radius: 3px;
+	box-shadow: 2px 2px 2px #999;
+	-webkit-transition-property: opacity, margin-top, visibility, margin-left;
+	-webkit-transition-duration: 0.4s, 0.3s, 0.4s, 0.3s;
+	-webkit-transition-timing-function: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+	transition-property: opacity, margin-top, visibility, margin-left;
+	transition-duration: 0.4s, 0.3s, 0.4s, 0.3s;
+	transition-timing-function: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+	left: -14px;
+	top: 5px;
+	text-align:left;
+	height:auto;
+
+}
+
+/*a.tooltip > span:hover,*/
+a.tooltip:hover > span {
+    opacity: 1;
+    text-decoration: none;
+    visibility: visible;
+    overflow: visible;
+    margin-top: 20px;
+    display: inline;
+    margin-left: -9px;
+}
+
+a.tooltip span b {
+    width: 15px;
+    height: 15px;
+    margin-left: 40px;
+    margin-top: -19px;
+    display: block;
+    position: absolute;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-box-shadow: inset -1px 1px 0 #fff;
+    -moz-box-shadow: inset 0 1px 0 #fff;
+    -o-box-shadow: inset 0 1px 0 #fff;
+    box-shadow: inset 0 1px 0 #fff;
+    display: none\0/;
+    *display: none;
+}    
+
+a.tooltip > span {
+	color: #000000; 
+	background: #FFFF00;
+	background: -webkit-linear-gradient(top, #FFFF00, #FFFF66);
+	background: linear-gradient(top, #FFFF00, #FFFF66);	    
+	border: 1px solid #CFB57C;	     
+}    
+	  
+a.tooltip span b {
+	background: #FFFF00;
+	border-top: 1px solid #CFB57C;
+	border-right: 1px solid #CFB57C;
+}
+
+
+div.polaroid {
+	width: 294px;
+	padding: 10px 10px 20px 10px;
+	border: 1px solid #BFBFBF;
+	background-color: white;
+	box-shadow: 3px 3px 10px #aaaaaa;
+	position: absolute;
+	left: 15%;
+	top: 40%;
+	/*transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);*/
+	height: 328px;
+}
+div.polaroid2 {
+	padding: 10px 10px 20px 10px;
+	border: 1px solid #BFBFBF;
+	background-color: white;
+	box-shadow: 3px 3px 10px #aaaaaa;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-25%, -50%);
+	-webkit-transform: translate(-25%, -50%);
+	
+}
+div.polaroid3 {
+	padding: 10px 10px 20px 10px;
+	border: 1px solid #BFBFBF;
+	background-color: white;
+	box-shadow: 3px 3px 10px #aaaaaa;
+	width:65%;
+	position:relative;
+	
+}
+div.polaroid4 {
+	padding: 10px 10px 20px 10px;
+	border: 1px solid #BFBFBF;
+	background-color: white;
+	box-shadow: 3px 3px 10px #aaaaaa;
+	width:97%;
+	position:relative;
+	
+}
+div.polaroid5 {
+	padding: 10px 10px 20px 10px;
+	border: 1px solid #BFBFBF;
+	background-color: white;
+	box-shadow: 3px 3px 10px #aaaaaa;
+	width:50%;
+	position:relative;
+	
+}
+div.polaroid6 {
+	padding: 10px 10px 20px 10px;
+	border: 1px solid #BFBFBF;
+	background-color: white;
+	box-shadow: 3px 3px 10px #aaaaaa;
+	width:95%;
+	position:relative;
+	height:450px;
+	
+}
+div.polaroid7 {
+	padding: 10px 10px 20px 10px;
+	border: 1px solid #BFBFBF;
+	background-color: white;
+	box-shadow: 3px 3px 10px #aaaaaa;
+	width:70%;
+	position:relative;
+	
+}
+div.polaroid_mjt_100 {
+	padding: 10px 10px 20px 10px;
+	border: 1px solid #BFBFBF;
+	background-color: white;
+	box-shadow: 3px 3px 10px #aaaaaa;
+	width:1000px;
+	position:relative;
+	
+}
+div.polaroid_mjt_160 {
+	padding: 10px 10px 20px 10px;
+	border: 1px solid #BFBFBF;
+	background-color: white;
+	box-shadow: 3px 3px 10px #aaaaaa;
+	width:1600px;
+	position:relative;
+	
+}
+div.polaroid_mjt_210 {
+	padding: 10px 10px 20px 10px;
+	border: 1px solid #BFBFBF;
+	background-color: white;
+	box-shadow: 3px 3px 10px #aaaaaa;
+	width:2500px;
+	position:relative;
+	
+}
+td {
+
+}
+table {
+border: 1px solid #0000FF;
+}
+
+.tabla1
+{
+	border:hidden;
+}
+.tabla2
+{
+	border: 1px solid #A8A4A4;
+}
+.td2{
+border: 1px solid #A8A4A4;	
+}
+.boton {
+    background:#0B1EB0;
+	color:#F4EEEE;
+	font-size:16px;
+	font-weight:bold;
+	
+    
+}
+
+.boton2 {
+   
+	border-radius: 2px 2px 2px 2px;
+-moz-border-radius: 2px 2px 2px 2px;
+-webkit-border-radius: 2px 2px 2px 2px;
+border: 0px solid #000000;
+   
+	font-weight:bold;
+	width:100%;
+	height:30px;
+	font:Arial;
+	color:#FDFBFB;
+	background-color:#0C699C;
+	
+	
+	
+	/*background-color: rgba(179,220,237,1);
+	background: @include filter-gradient(#b3dced, #bce0ee, vertical);
+	background: @include background-image(linear-gradient(top, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%));*/
+    
+}
+
+.boton3
+{
+	border-radius: 2px 2px 2px 2px;
+	-moz-border-radius: 2px 2px 2px 2px;
+	-webkit-border-radius: 2px 2px 2px 2px;
+	border: 0px solid #000000;
+	font-weight:bold;
+	
+	height:30px;
+	font:Arial;
+	color:#0C699C;
+	background-color:#FDFBFB;
+	border-color:#0C699C;
+	border-width:thin;
+	
+}
+.boton3:hover { background: #0C699C; color:#FDFBFB; }
+.boton3:focus { background: #0C699C; color:#FDFBFB; }
+.boton4
+{
+	border-radius: 2px 2px 2px 2px;
+	-moz-border-radius: 2px 2px 2px 2px;
+	-webkit-border-radius: 2px 2px 2px 2px;
+	border: 0px solid #000000;
+	font-weight:normal;
+	font-size:11px;
+	height:30px;
+	font:Arial;
+	color:#0C699C;
+	background-color:#FDFBFB;
+	border-color:#0C699C;
+	border-width:thin;
+	
+}
+.boton4:hover { background: #0C699C; color:#FDFBFB; }
+
+.boton_calendario{
+	background-image:url(../images/january-1-calendar.jpg);
+	background-position:bottom;
+	background-size:auto;
+	
+		
+}
+.boton_calendario{
+	background-image: url(../images/001_44.png); background-repeat:no-repeat; background-position:bottom; background-color:#FDFBFB; width:30px; height:30px; border-color:#FDFBFB; border-bottom-color:#FDFBFB; border-bottom:none; border-right:none;
+}
+
+.fondo_encabezado
+{
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	background: #094475;
+	color:#F4EEEE;
+	font-size:16px;
+	font-weight:bold;
+	align-content:center;
+	align-items:center;
+	font:Arial;
+}
+.fondo_encabezado_buscador
+{
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	background: #B8B4B4;
+	color:#F4EEEE;
+	font-size:12px;
+	font-weight:bold;
+	align-content:center;
+	align-items:center;
+	font:Arial;
+}
+.fondo_encabezado2
+{
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	background:#0C699C;
+	color:#F4EEEE;
+	font-size:14px;
+	font-weight:bold;
+	font:Arial;
+}
+.fondo_encabezado3
+{
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	background: #0C699C;
+	color:#F4EEEE;
+	font-size:14px;
+	font-weight:bold;
+	font:Arial;
+}
+.fondo_encabezado_mjt
+{
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	background: #9EBE81;
+	color:#F4EEEE;
+	font-size:12px;
+	font-weight:normal;
+	font:Arial;
+}
+.eiquetas
+{
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	color: #090909;
+	font-size:14px;
+	font:Arial;
+	font-weight:normal;
+	font:Arial;
+}
+.eiquetas2
+{
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	color: #090909;
+	font-size:8px;
+	font:Arial;
+	font-weight:normal;
+	font:Arial;
+}
+.titulo1
+{
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	color:#0B0B0B;
+	font-size:16px;
+	font-weight:bold;	
+	font:Arial;
+}
+.titulo2
+{
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	color: #FDFBFB;
+	font-size:16px;
+	font:Arial;
+	font-weight:bold;
+	font:Arial;
+
+	
+}
+.titulo3
+{
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	color: #FDFBFB;
+	font-size:12px;
+	font:Arial;
+
+
+
+	
+}

@@ -1,0 +1,50 @@
+mar 25, 2021 10:21:29 AM org.eclipse.birt.report.engine.api.impl.ReportEngine <init>
+DETALLADO: ReportEngine created. EngineConfig: EngineConfig: logDest=/usr/share/tomcat/webapps/birt2/logs;maxRowsPerQuery=-1;logLevel=ALL;org.eclipse.birt.report.engine.api.EngineConfig.scriptObjects={webapplication.projectclasspath=, PARENT_CLASSLOADER=WebappClassLoader
+  context: /birt2
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+java.net.URLClassLoader@7a81197d
+};BIRT_HOME=;PLATFORM_CONTEXT=org.eclipse.birt.core.framework.PlatformServletContext@55703503;org.eclipse.birt.report.engine.api.EngineConfig.emitterConfigs={html=org.eclipse.birt.report.engine.api.HTMLRenderOption@6c18277}; 
+mar 25, 2021 10:21:29 AM org.eclipse.birt.report.engine.extension.internal.ExtensionManager getExtensions
+DETALLADO: Start load extension point: org.eclipse.birt.report.engine.reportitemGeneration
+mar 25, 2021 10:21:29 AM org.eclipse.birt.report.engine.extension.internal.ExtensionManager loadGenerationExtensionDefns
+DETALLADO: Load generation extension: Chart
+mar 25, 2021 10:21:29 AM org.eclipse.birt.report.engine.extension.internal.ExtensionManager getExtensions
+DETALLADO: Start load extension point: org.eclipse.birt.report.engine.reportitemPresentation
+mar 25, 2021 10:21:29 AM org.eclipse.birt.report.engine.extension.internal.ExtensionManager loadPresentationExtensionDefns
+DETALLADO: Load prsentation extension: Chart
+mar 25, 2021 10:21:29 AM org.eclipse.birt.report.engine.extension.internal.ExtensionManager getExtensions
+DETALLADO: Start load extension point: org.eclipse.birt.report.engine.reportitemQuery
+mar 25, 2021 10:21:29 AM org.eclipse.birt.report.engine.extension.internal.ExtensionManager loadQueryExtensionDefns
+DETALLADO: Load query extension: Chart
+mar 25, 2021 10:21:29 AM org.eclipse.birt.report.engine.extension.internal.ExtensionManager getExtensions
+DETALLADO: Start load extension point: org.eclipse.birt.report.engine.emitters
+mar 25, 2021 10:21:29 AM org.eclipse.birt.report.engine.extension.internal.ExtensionManager loadEmitterExtensionDefns
+DETALLADO: Load html emitter org.eclipse.birt.report.engine.emitter.html
+mar 25, 2021 10:21:29 AM org.eclipse.birt.report.engine.extension.internal.ExtensionManager loadEmitterExtensionDefns
+DETALLADO: Load pdf emitter org.eclipse.birt.report.engine.emitter.pdf
+mar 25, 2021 10:21:29 AM org.eclipse.birt.report.engine.extension.internal.ExtensionManager loadEmitterExtensionDefns
+DETALLADO: Load ppt emitter org.eclipse.birt.report.engine.emitter.ppt
+mar 25, 2021 10:21:29 AM org.eclipse.birt.report.engine.extension.internal.ExtensionManager loadEmitterExtensionDefns
+DETALLADO: Load postscript emitter org.eclipse.birt.report.engine.emitter.postscript
+mar 25, 2021 10:21:29 AM org.eclipse.birt.report.engine.extension.internal.ExtensionManager loadEmitterExtensionDefns
+DETALLADO: Load xls emitter org.eclipse.birt.report.engine.emitter.prototype.excel
+mar 25, 2021 10:21:29 AM org.eclipse.birt.report.engine.extension.internal.ExtensionManager loadEmitterExtensionDefns
+DETALLADO: Load doc emitter org.eclipse.birt.report.engine.emitter.word
+mar 25, 2021 10:21:29 AM org.eclipse.birt.report.engine.extension.internal.ExtensionManager getExtensions
+DETALLADO: Start load extension point: org.eclipse.birt.report.engine.reportEventHandler
+mar 25, 2021 10:21:29 AM org.eclipse.birt.report.engine.extension.internal.ExtensionManager getExtensions
+DETALLADO: Start load extension point: org.eclipse.birt.report.engine.reportItemPreparation
+mar 25, 2021 10:21:29 AM org.eclipse.birt.report.engine.extension.internal.ExtensionManager getExtensions
+DETALLADO: Start load extension point: org.eclipse.birt.report.engine.dataExtraction
+mar 25, 2021 10:21:29 AM org.eclipse.birt.report.engine.extension.internal.ExtensionManager loadDataExtractionExtensions
+DETALLADO: Load data extraction extension: org.eclipse.birt.report.engine.dataextraction.csv
+mar 25, 2021 10:21:29 AM org.eclipse.birt.report.engine.extension.internal.ExtensionManager getExtensions
+DETALLADO: Start load extension point: org.eclipse.birt.report.engine.extendedItemFactory
+mar 25, 2021 10:21:29 AM org.eclipse.birt.report.engine.extension.internal.ExtensionManager loadExtendedItems
+DETALLADO: Load extendedItem extension: Crosstab
+mar 25, 2021 10:21:29 AM org.eclipse.birt.report.engine.extension.internal.ExtensionManager loadExtendedItems
+DETALLADO: Load extendedItem extension: CrosstabCell
+mar 25, 2021 10:21:29 AM org.eclipse.birt.report.engine.extension.internal.ExtensionManager loadExtendedItems
+DETALLADO: Load extendedItem extension: AggregationCell
