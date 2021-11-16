@@ -1,5 +1,2 @@
 db_vol8/
-tomcat/target/birt2/logs
-tomcat/target/birt2/WEB-INF/platform/configuration
-tomcat/target/birt2/documents/
-tomcat/target/birt2/report/images
+tomcat/target/birt2
