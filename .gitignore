@@ -1,2 +1,3 @@
 db_vol8/
-tomcat/target/birt2
+tomcat/*
+mysql-dump/*

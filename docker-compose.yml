@@ -31,7 +31,7 @@ services:
     image: fabric8/tomcat-7
     container_name: tomcat_7
     volumes:
-      - ./tomcat/target/birt2:/usr/local/tomcat/webapps/birt2
+      - ./tomcat/birt2:/usr/local/tomcat/webapps/birt2
     ports:
       - '8080:8080'
     environment:

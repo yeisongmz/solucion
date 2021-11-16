@@ -1,6 +1,3 @@
-/home/mint/proyectos/solucion/solucion
-
-sudo docker build --rm -t c7-systemd .
-
-/home/mint/proyectos/solucion/solucion/php
-docker build --rm -t local/c7-systemd-httpd .
+copiar carpeta birt2 en /tomcat
+ya debe estar configurado con el jar para la coneccion a la bd 5.7
+el reporte debe apuntar a http://db:3306
